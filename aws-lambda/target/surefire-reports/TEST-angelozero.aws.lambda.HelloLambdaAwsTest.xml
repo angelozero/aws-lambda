@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="angelozero.aws.lambda.HelloLambdaAwsTest" time="0.068" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/angeloferreira/Projects/java/aws-lambda/target/test-classes:/Users/angeloferreira/Projects/java/aws-lambda/target/classes:/Users/angeloferreira/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/angeloferreira/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/angeloferreira/.m2/repository/com/amazonaws/aws-lambda-java-core/1.2.0/aws-lambda-java-core-1.2.0.jar:/Users/angeloferreira/.m2/repository/com/amazonaws/aws-lambda-java-events/2.2.7/aws-lambda-java-events-2.2.7.jar:/Users/angeloferreira/.m2/repository/joda-time/joda-time/2.6/joda-time-2.6.jar:/Users/angeloferreira/.m2/repository/org/springframework/spring-web/3.0.4.RELEASE/spring-web-3.0.4.RELEASE.jar:/Users/angeloferreira/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/angeloferreira/.m2/repository/org/springframework/spring-beans/3.0.4.RELEASE/spring-beans-3.0.4.RELEASE.jar:/Users/angeloferreira/.m2/repository/org/springframework/spring-context/3.0.4.RELEASE/spring-context-3.0.4.RELEASE.jar:/Users/angeloferreira/.m2/repository/org/springframework/spring-aop/3.0.4.RELEASE/spring-aop-3.0.4.RELEASE.jar:/Users/angeloferreira/.m2/repository/org/springframework/spring-expression/3.0.4.RELEASE/spring-expression-3.0.4.RELEASE.jar:/Users/angeloferreira/.m2/repository/org/springframework/spring-asm/3.0.4.RELEASE/spring-asm-3.0.4.RELEASE.jar:/Users/angeloferreira/.m2/repository/org/springframework/spring-core/3.0.4.RELEASE/spring-core-3.0.4.RELEASE.jar:/Users/angeloferreira/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/angeloferreira/.m2/repository/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar:/Users/angeloferreira/.m2/repository/org/json/json/20180813/json-20180813.jar:/Users/angeloferreira/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar:/Users/angeloferreira/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/Users/angeloferreira/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar:/Users/angeloferreira/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar:/Users/angeloferreira/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.9.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/angeloferreira/Projects/java/aws-lambda/target/surefire/surefirebooter10663008610751972732.jar /Users/angeloferreira/Projects/java/aws-lambda/target/surefire 2021-09-25T19-56-47_159-jvmRun1 surefire7396918470076115987tmp surefire_010007543430247010898tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/angeloferreira/Projects/java/aws-lambda/target/test-classes:/Users/angeloferreira/Projects/java/aws-lambda/target/classes:/Users/angeloferreira/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/angeloferreira/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/angeloferreira/.m2/repository/com/amazonaws/aws-lambda-java-core/1.2.0/aws-lambda-java-core-1.2.0.jar:/Users/angeloferreira/.m2/repository/com/amazonaws/aws-lambda-java-events/2.2.7/aws-lambda-java-events-2.2.7.jar:/Users/angeloferreira/.m2/repository/joda-time/joda-time/2.6/joda-time-2.6.jar:/Users/angeloferreira/.m2/repository/org/springframework/spring-web/3.0.4.RELEASE/spring-web-3.0.4.RELEASE.jar:/Users/angeloferreira/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/angeloferreira/.m2/repository/org/springframework/spring-beans/3.0.4.RELEASE/spring-beans-3.0.4.RELEASE.jar:/Users/angeloferreira/.m2/repository/org/springframework/spring-context/3.0.4.RELEASE/spring-context-3.0.4.RELEASE.jar:/Users/angeloferreira/.m2/repository/org/springframework/spring-aop/3.0.4.RELEASE/spring-aop-3.0.4.RELEASE.jar:/Users/angeloferreira/.m2/repository/org/springframework/spring-expression/3.0.4.RELEASE/spring-expression-3.0.4.RELEASE.jar:/Users/angeloferreira/.m2/repository/org/springframework/spring-asm/3.0.4.RELEASE/spring-asm-3.0.4.RELEASE.jar:/Users/angeloferreira/.m2/repository/org/springframework/spring-core/3.0.4.RELEASE/spring-core-3.0.4.RELEASE.jar:/Users/angeloferreira/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/angeloferreira/.m2/repository/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar:/Users/angeloferreira/.m2/repository/org/json/json/20180813/json-20180813.jar:/Users/angeloferreira/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar:/Users/angeloferreira/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/Users/angeloferreira/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar:/Users/angeloferreira/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar:/Users/angeloferreira/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/angeloferreira"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.9.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/angeloferreira/Projects/java/aws-lambda"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/angeloferreira/Projects/java/aws-lambda/target/surefire/surefirebooter10663008610751972732.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.9+7-LTS"/>
+    <property name="user.name" value="angeloferreira"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/angeloferreira/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/dm/vmwcn2wn615bq_ngy5ljvkkr0000gn/T/"/>
+    <property name="java.version" value="11.0.9"/>
+    <property name="user.dir" value="/Users/angeloferreira/Projects/java/aws-lambda"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/angeloferreira/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.9+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="angelozero.aws.lambda.HelloLambdaAwsTest" time="0.002"/>
+</testsuite>
